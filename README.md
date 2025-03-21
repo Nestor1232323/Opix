@@ -1,3 +1,4 @@
 # Opix
 Opix Browser - самый лучший браузер в операционной системе ColdOS! Почему бы его не портировать на Windows 11?
-![opix](https://github.com/user-attachments/assets/ef43a212-1dfb-4b2b-af47-f557d1a0bb6a) 
+![image](https://github.com/user-attachments/assets/3845868f-27da-4339-b4c0-368f2a217591)
+
