@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Opix (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Opix (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<Page
+    x:Class="Opix.MainInterface"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Opix"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!-- Панель инструментов с кнопками -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top" Padding="10">
+            <Button x:Name="BackButton" Content="" FontFamily="Segoe Fluent Icons" Click="BackButton_Click" Margin="5" Padding="10,5"/>
+            <Button x:Name="ForwardButton" Content="" FontFamily="Segoe Fluent Icons" Click="ForwardButton_Click" Margin="5" Padding="10,5"/>
+            <Button x:Name="RefreshButton" Content="" FontFamily="Segoe Fluent Icons" Click="RefreshButton_Click" Margin="5" Padding="10,5"/>
+            <TextBox x:Name="UrlTextBox" Width="400" Margin="5" Padding="5" PlaceholderText="Введите URL или запрос" HorizontalAlignment="Stretch" VerticalAlignment="Center" KeyDown="UrlTextBox_KeyDown"/>
+            <Button x:Name="SettingsButton" Content="" FontFamily="Segoe Fluent Icons" Click="SettingsButton_Click" Margin="5" Padding="10,5"/>
+        </StackPanel>
+
+        <!-- WebView2 для отображения веб-страниц -->
+        <WebView2 x:Name="WebView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,50,0,0"/>
+    </Grid>
+</Page>
